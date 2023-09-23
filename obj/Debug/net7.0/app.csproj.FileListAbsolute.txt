@@ -1,0 +1,14 @@
+G:\All  Web Development Projects\C# Learning\app\bin\Debug\net7.0\app.exe
+G:\All  Web Development Projects\C# Learning\app\bin\Debug\net7.0\app.deps.json
+G:\All  Web Development Projects\C# Learning\app\bin\Debug\net7.0\app.runtimeconfig.json
+G:\All  Web Development Projects\C# Learning\app\bin\Debug\net7.0\app.dll
+G:\All  Web Development Projects\C# Learning\app\bin\Debug\net7.0\app.pdb
+G:\All  Web Development Projects\C# Learning\app\obj\Debug\net7.0\app.GeneratedMSBuildEditorConfig.editorconfig
+G:\All  Web Development Projects\C# Learning\app\obj\Debug\net7.0\app.AssemblyInfoInputs.cache
+G:\All  Web Development Projects\C# Learning\app\obj\Debug\net7.0\app.AssemblyInfo.cs
+G:\All  Web Development Projects\C# Learning\app\obj\Debug\net7.0\app.csproj.CoreCompileInputs.cache
+G:\All  Web Development Projects\C# Learning\app\obj\Debug\net7.0\app.dll
+G:\All  Web Development Projects\C# Learning\app\obj\Debug\net7.0\refint\app.dll
+G:\All  Web Development Projects\C# Learning\app\obj\Debug\net7.0\app.pdb
+G:\All  Web Development Projects\C# Learning\app\obj\Debug\net7.0\app.genruntimeconfig.cache
+G:\All  Web Development Projects\C# Learning\app\obj\Debug\net7.0\ref\app.dll
