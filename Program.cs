@@ -13,7 +13,16 @@ Console.WriteLine(z);
 
 int age = 21;
 double height = 177.8; //decimal number
+bool alive = true; //true or false
+char symbol = '@';
+String name = "akuma_saral";
+String userName = symbol + name;
+String unit = "cm";
 
+Console.WriteLine("My name is " +name);
+Console.WriteLine("My username is: " +userName);
 Console.WriteLine("Your age is " + z);
 Console.WriteLine("Your brother's age is " + age );
-Console.WriteLine("Your height is " + height);
+Console.WriteLine("Your height is " + height+unit);
+Console.WriteLine("Are you alive?" + alive);
+Console.WriteLine("Your symbol is " + symbol);
