@@ -19,10 +19,15 @@ String name = "akuma_saral";
 String userName = symbol + name;
 String unit = "cm";
 
-Console.WriteLine("My name is " +name);
-Console.WriteLine("My username is: " +userName);
+//constants = change garna namilos future line of code ma
+
+const double pi = 3.14;
+
+Console.WriteLine("The value of Pi is: " + pi);
+Console.WriteLine("My name is " + name);
+Console.WriteLine("My username is: " + userName);
 Console.WriteLine("Your age is " + z);
-Console.WriteLine("Your brother's age is " + age );
-Console.WriteLine("Your height is " + height+unit);
+Console.WriteLine("Your brother's age is " + age);
+Console.WriteLine("Your height is " + height + unit);
 Console.WriteLine("Are you alive?" + alive);
 Console.WriteLine("Your symbol is " + symbol);
