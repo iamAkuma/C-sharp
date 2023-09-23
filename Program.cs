@@ -35,4 +35,7 @@
 double a = 3.14;
 int b = Convert.ToInt32(a); //Converts double to int
 
+//Checking variable's data types
+Console.WriteLine(a.GetType());
+Console.WriteLine(b.GetType());
 Console.WriteLine(b);
