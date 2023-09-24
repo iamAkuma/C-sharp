@@ -32,10 +32,21 @@
 // Console.WriteLine("Are you alive?" + alive);
 // Console.WriteLine("Your symbol is " + symbol);
 
-double a = 3.14;
-int b = Convert.ToInt32(a); //Converts double to int
+// double a = 3.14;
+// int b = Convert.ToInt32(a); //Converts double to int
 
-//Checking variable's data types
-Console.WriteLine(a.GetType());
-Console.WriteLine(b.GetType());
-Console.WriteLine(b);
+// //Checking variable's data types
+// Console.WriteLine(a.GetType());
+// Console.WriteLine(b.GetType());
+// Console.WriteLine(b);
+
+//TypeCasting rey
+
+int c = 321;
+String e = Convert.ToString(c);
+
+String f = "$";
+char g = Convert.ToChar(f);
+
+Console.WriteLine(e.GetType());
+Console.WriteLine(g);
