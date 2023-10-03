@@ -42,11 +42,22 @@
 
 //TypeCasting rey
 
-int c = 321;
-String e = Convert.ToString(c);
+// int c = 321;
+// String e = Convert.ToString(c);
 
-String f = "$";
-char g = Convert.ToChar(f);
+// String f = "$";
+// char g = Convert.ToChar(f);
 
-Console.WriteLine(e.GetType());
-Console.WriteLine(g);
+// Console.WriteLine(e.GetType());
+// Console.WriteLine(g);
+Console.WriteLine("What is your name?");
+String name = Console.ReadLine();
+
+Console.WriteLine("What is your age?");
+int age = Convert.ToInt32(Console.ReadLine());
+
+
+Console.WriteLine("Hello " + name);
+Console.WriteLine("Your age is  " + age);
+
+Console.ReadKey();

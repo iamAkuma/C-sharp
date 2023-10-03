@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "g:\\All  Web Development Projects\\C# Learning\\app\\app.csproj": {}
+    "G:\\All  Web Development Projects\\C# Learning\\app\\app.csproj": {}
   },
   "projects": {
-    "g:\\All  Web Development Projects\\C# Learning\\app\\app.csproj": {
+    "G:\\All  Web Development Projects\\C# Learning\\app\\app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\All  Web Development Projects\\C# Learning\\app\\app.csproj",
+        "projectUniqueName": "G:\\All  Web Development Projects\\C# Learning\\app\\app.csproj",
         "projectName": "app",
-        "projectPath": "g:\\All  Web Development Projects\\C# Learning\\app\\app.csproj",
+        "projectPath": "G:\\All  Web Development Projects\\C# Learning\\app\\app.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "g:\\All  Web Development Projects\\C# Learning\\app\\obj\\",
+        "outputPath": "G:\\All  Web Development Projects\\C# Learning\\app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
