@@ -50,14 +50,19 @@
 
 // Console.WriteLine(e.GetType());
 // Console.WriteLine(g);
-Console.WriteLine("What is your name?");
-String name = Console.ReadLine();
+// Console.WriteLine("What is your name?");
+// String name = Console.ReadLine();
 
-Console.WriteLine("What is your age?");
-int age = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("What is your age?");
+// int age = Convert.ToInt32(Console.ReadLine());
 
 
-Console.WriteLine("Hello " + name);
-Console.WriteLine("Your age is  " + age);
+// Console.WriteLine("Hello " + name);
+// Console.WriteLine("Your age is  " + age);
 
-Console.ReadKey();
+// Console.ReadKey();
+
+int friends = 5;
+friends++;
+
+Console.WriteLine(friends);
