@@ -62,7 +62,14 @@
 
 // Console.ReadKey();
 
-int friends = 5;
-friends++;
+// int friends = 5;
+// friends--;
 
-Console.WriteLine(friends);
+int i;
+string[] friends = { "Friend1", "Friend2", "Friend3", "Friend4", "Friend5" };
+
+for (i = 0; i < friends.Length; i++)
+{
+    Console.WriteLine(friends[i]);
+}
+
