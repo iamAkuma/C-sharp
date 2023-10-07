@@ -95,13 +95,22 @@
 
 // Console.WriteLine(b);
 
-Random random = new Random();
+// Random random = new Random();
 
-int num = random.Next(1,7);
-int num1 = random.Next(1,7);
-int num2 = random.Next(1,7);
+// int num = random.Next(1,7);
+// int num1 = random.Next(1,7);
+// int num2 = random.Next(1,7);
 
-// double num = random.NextDouble();
-System.Console.WriteLine(num);
-System.Console.WriteLine(num1);
-System.Console.WriteLine(num2);
+// // double num = random.NextDouble();
+// System.Console.WriteLine(num);
+// System.Console.WriteLine(num1);
+// System.Console.WriteLine(num2);
+
+Console.WriteLine("Enter Side A: ");
+double a = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Enter Side B: ");
+double b = Convert.ToDouble(Console.ReadLine());
+
+double c = Math.Sqrt((a * a) + (b * b));
+System.Console.WriteLine("The hypotenuse is: " +c);
