@@ -62,14 +62,22 @@
 
 // Console.ReadKey();
 
-// int friends = 5;
+int friends = 10;
 // friends--;
+// friends++;
+// friends+=2;
+// friends -=1;
+// friends *=2;
+// friends /=2;
+int remainder = friends % 2;
 
-int i;
-string[] friends = { "Friend1", "Friend2", "Friend3", "Friend4", "Friend5" };
+Console.WriteLine(remainder);
 
-for (i = 0; i < friends.Length; i++)
-{
-    Console.WriteLine(friends[i]);
-}
+// int i;
+// string[] friends = { "Friend1", "Friend2", "Friend3", "Friend4", "Friend5" };
+
+// for (i = 0; i < friends.Length; i++)
+// {
+//     Console.WriteLine(friends[i]);
+// }
 
