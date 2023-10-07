@@ -94,3 +94,14 @@
 // double b = Math.Min(x,y);
 
 // Console.WriteLine(b);
+
+Random random = new Random();
+
+int num = random.Next(1,7);
+int num1 = random.Next(1,7);
+int num2 = random.Next(1,7);
+
+// double num = random.NextDouble();
+System.Console.WriteLine(num);
+System.Console.WriteLine(num1);
+System.Console.WriteLine(num2);
