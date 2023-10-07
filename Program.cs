@@ -81,8 +81,8 @@
 //     Console.WriteLine(friends[i]);
 // }
 
-double x = 3.99;
-double y = 5;
+// double x = 3.99;
+// double y = 5;
 
 // double a = Math.Pow(x, 2);
 // double a = Math.Sqrt(x);
@@ -90,6 +90,7 @@ double y = 5;
 // double a = Math.Round(x);
 // double a = Math.Ceiling(x);
 // double a = Math.Floor(x);
-double a = Math.Max(x,y);
+// double a = Math.Max(x,y);
+// double b = Math.Min(x,y);
 
-Console.WriteLine(a);
+// Console.WriteLine(b);
