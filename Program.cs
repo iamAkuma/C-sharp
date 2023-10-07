@@ -62,16 +62,16 @@
 
 // Console.ReadKey();
 
-int friends = 10;
-// friends--;
-// friends++;
-// friends+=2;
-// friends -=1;
-// friends *=2;
-// friends /=2;
-int remainder = friends % 2;
+// int friends = 10;
+// // friends--;
+// // friends++;
+// // friends+=2;
+// // friends -=1;
+// // friends *=2;
+// // friends /=2;
+// int remainder = friends % 2;
 
-Console.WriteLine(remainder);
+// Console.WriteLine(remainder);
 
 // int i;
 // string[] friends = { "Friend1", "Friend2", "Friend3", "Friend4", "Friend5" };
@@ -81,3 +81,10 @@ Console.WriteLine(remainder);
 //     Console.WriteLine(friends[i]);
 // }
 
+double x = 3;
+
+// double a = Math.Pow(x, 2);
+// double a = Math.Sqrt(x);
+double a = Math.Abs(x);
+
+Console.WriteLine(a);
