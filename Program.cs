@@ -115,7 +115,15 @@
 // double c = Math.Sqrt((a * a) + (b * b));
 // System.Console.WriteLine("The hypotenuse is: " +c);
 
-String fullName = "Saral";
-fullName = fullName.ToUpper();
-fullName = fullName.ToLower();
-System.Console.WriteLine(fullName);
+// String fullName = "Saral";
+// fullName = fullName.ToUpper();
+// fullName = fullName.ToLower();
+// System.Console.WriteLine(fullName);
+
+// int i;
+// int sum = 0;
+// for (i=1 ; i<=5 ; ++i){
+//     sum += i;
+
+// }
+// System.Console.WriteLine("The sum of 1 to 5 is: "+sum);
