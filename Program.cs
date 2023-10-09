@@ -127,3 +127,21 @@
 
 // }
 // System.Console.WriteLine("The sum of 1 to 5 is: "+sum);
+
+// String phoneNumber = "123-456-7890";
+// phoneNumber=phoneNumber.Replace("-","");
+// System.Console.WriteLine(phoneNumber);
+
+// String fullName = "saral";
+// String userName = fullName.Insert(0,"@");
+// System.Console.WriteLine(userName);
+
+int [] arr = new int[5];
+arr[0] = 1 ;
+arr[1] = 2;
+arr[2] = 3 ;
+arr[3] = 4 ;
+arr[4] = 5 ;
+
+int sum = arr[2] + arr [3];
+System.Console.WriteLine(sum);
