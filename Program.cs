@@ -148,17 +148,40 @@
 
 
 //College ma gareko revision
-int[][] jArray = new int[3][];
+// int[][] jArray = new int[3][];
 
-jArray[0] = new int[2] { 1, 2 };
-jArray[1] = new int[3] { 1, 2, 3 };
-jArray[2] = new int[4] { 1, 2, 3, 4 };
+// jArray[0] = new int[2] { 1, 2 };
+// jArray[1] = new int[3] { 1, 2, 3 };
+// jArray[2] = new int[4] { 1, 2, 3, 4 };
 
-for (int i = 0; i < jArray.Length; i++)
+// for (int i = 0; i < jArray.Length; i++)
+// {
+//     for (int j = 0; j < jArray[i].Length; j++)
+//     {
+//         System.Console.Write(jArray[i][j] + "\t");
+//     }
+//     System.Console.WriteLine();
+// }
+
+//if statements
+System.Console.WriteLine("Please Enter your age: ");
+int age = Convert.ToInt32(Console.ReadLine());
+
+if (age >= 18 && age < 100)
 {
-    for (int j = 0; j < jArray[i].Length; j++)
-    {
-        System.Console.Write(jArray[i][j] + "\t");
-    }
-    System.Console.WriteLine();
+    System.Console.WriteLine("Congrats, You can watch porn.");
+}
+else if (age >= 100)
+{
+    System.Console.WriteLine("Die already, bitch!");
+}
+else if (age <= 0)
+{
+    System.Console.WriteLine("Pahila yo duniya ma ta aaija!");
+
+}
+else
+{
+    System.Console.WriteLine("Grow up kid!");
+
 }
