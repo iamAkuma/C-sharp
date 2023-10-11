@@ -136,12 +136,29 @@
 // String userName = fullName.Insert(0,"@");
 // System.Console.WriteLine(userName);
 
-int [] arr = new int[5];
-arr[0] = 1 ;
-arr[1] = 2;
-arr[2] = 3 ;
-arr[3] = 4 ;
-arr[4] = 5 ;
+// int [] arr = new int[5];
+// arr[0] = 1 ;
+// arr[1] = 2;
+// arr[2] = 3 ;
+// arr[3] = 4 ;
+// arr[4] = 5 ;
 
-int sum = arr[2] + arr [3];
-System.Console.WriteLine(sum);
+// int sum = arr[2] + arr [3];
+// System.Console.WriteLine(sum);
+
+
+//College ma gareko revision
+int[][] jArray = new int[3][];
+
+jArray[0] = new int[2] { 1, 2 };
+jArray[1] = new int[3] { 1, 2, 3 };
+jArray[2] = new int[4] { 1, 2, 3, 4 };
+
+for (int i = 0; i < jArray.Length; i++)
+{
+    for (int j = 0; j < jArray[i].Length; j++)
+    {
+        System.Console.Write(jArray[i][j] + "\t");
+    }
+    System.Console.WriteLine();
+}
