@@ -164,24 +164,54 @@
 // }
 
 //if statements
-System.Console.WriteLine("Please Enter your age: ");
-int age = Convert.ToInt32(Console.ReadLine());
+// System.Console.WriteLine("Please Enter your age: ");
+// int age = Convert.ToInt32(Console.ReadLine());
 
-if (age >= 18 && age < 100)
-{
-    System.Console.WriteLine("Congrats, You can watch porn.");
-}
-else if (age >= 100)
-{
-    System.Console.WriteLine("Die already, bitch!");
-}
-else if (age <= 0)
-{
-    System.Console.WriteLine("Pahila yo duniya ma ta aaija!");
+// if (age >= 18 && age < 100)
+// {
+//     System.Console.WriteLine("Congrats, You can watch porn.");
+// }
+// else if (age >= 100)
+// {
+//     System.Console.WriteLine("Die already, bitch!");
+// }
+// else if (age <= 0)
+// {
+//     System.Console.WriteLine("Pahila yo duniya ma ta aaija!");
 
-}
-else
-{
-    System.Console.WriteLine("Grow up kid!");
+// }
+// else
+// {
+//     System.Console.WriteLine("Grow up kid!");
 
+// }
+
+class Program
+{
+    static void displayArr(int[] arr)
+    {
+        int sum = 0;
+        Console.WriteLine("Entered elements:");
+
+        for (int i = 0; i < arr.Length; i++)
+        {
+            Console.WriteLine(arr[i]);
+            sum += arr[i];
+        }
+
+        Console.WriteLine("Sum of elements: " + sum);
+    }
+
+    static void Main(string[] args)
+    {
+        int[] arr = new int[4];
+
+        for (int i = 0; i < 4; i++)
+        {
+            Console.Write("Enter element " + (i + 1) + ": ");
+            arr[i] = Convert.ToInt32(Console.ReadLine());
+        }
+
+        displayArr(arr);
+    }
 }
