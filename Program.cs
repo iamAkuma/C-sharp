@@ -186,6 +186,25 @@
 
 // }
 
+//nested if
+Console.WriteLine("Enter your age: ");
+int age = Convert.ToInt32(Console.ReadLine());
+
+if(age >= 18 )
+{
+    System.Console.WriteLine("You are an adult.");
+    if(age > 18)
+    {
+    System.Console.WriteLine("You are older than 18 years old!");
+    }
+    else {
+        System.Console.WriteLine("You are not older than 18 years old.");
+    }
+}
+else{
+    System.Console.WriteLine("You are still a minor.");
+}
+
 
 //Sum of array
 
@@ -245,3 +264,36 @@
 //     System.Console.WriteLine(i);
 //     i++;
 // }
+
+
+//switch case
+//  System.Console.WriteLine("What day is it today?");
+//  string day = Console.ReadLine();
+
+//  switch(day)
+//  {
+//     case "Sunday":
+//     System.Console.WriteLine("Today is Sunday");
+//     break;
+//     case "Monday":
+//     System.Console.WriteLine("Today is Monday");
+//     break;
+//     case "Tuesday":
+//     System.Console.WriteLine("Today is Tuesday");
+//     break;
+//     case "Wednesday":
+//     System.Console.WriteLine("Today is Wednesday");
+//     break;
+//     case "Thursday":
+//     System.Console.WriteLine("Today is Thursday");
+//     break;
+//     case "Friday":
+//     System.Console.WriteLine("Today is Friday");
+//     break;
+//     case "Saturday":
+//     System.Console.WriteLine("Today is Saturday");
+//     break;
+//     default:
+//     System.Console.WriteLine(day + " is not a day.");
+//     break;
+//  }
