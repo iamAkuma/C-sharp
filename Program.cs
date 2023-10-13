@@ -186,32 +186,62 @@
 
 // }
 
-class Program
-{
-    static void displayArr(int[] arr)
-    {
-        int sum = 0;
-        Console.WriteLine("Entered elements:");
 
-        for (int i = 0; i < arr.Length; i++)
-        {
-            Console.WriteLine(arr[i]);
-            sum += arr[i];
-        }
+//Sum of array
 
-        Console.WriteLine("Sum of elements: " + sum);
-    }
+// class Program
+// {
+//     static void displayArr(int[] arr)
+//     {
+//         int sum = 0;
+//         Console.WriteLine("Entered elements:");
 
-    static void Main(string[] args)
-    {
-        int[] arr = new int[4];
+//         for (int i = 0; i < arr.Length; i++)
+//         {
+//             Console.WriteLine(arr[i]);
+//             sum += arr[i];
+//         }
 
-        for (int i = 0; i < 4; i++)
-        {
-            Console.Write("Enter element " + (i + 1) + ": ");
-            arr[i] = Convert.ToInt32(Console.ReadLine());
-        }
+//         Console.WriteLine("Sum of elements: " + sum);
+//     }
 
-        displayArr(arr);
-    }
-}
+//     static void Main(string[] args)
+//     {
+//         int[] arr = new int[4];
+
+//         for (int i = 0; i < 4; i++)
+//         {
+//             Console.Write("Enter element " + (i + 1) + ": ");
+//             arr[i] = Convert.ToInt32(Console.ReadLine());
+//         }
+
+//         Program.displayArr(arr);
+//     }
+// }
+
+// Iteration statements
+
+//do-while loop
+// int i=1;
+// do
+// {
+//     System.Console.WriteLine(i);
+//     i++;
+
+// }
+// while(i<=10);
+
+//for loop
+//  int i;
+// for(i = 1; i <=10; i++){
+// System.Console.WriteLine(i);
+// }
+
+
+//while loop
+// int i = 1;
+// while(i<=5)
+// {
+//     System.Console.WriteLine(i);
+//     i++;
+// }
