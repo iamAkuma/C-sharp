@@ -187,23 +187,23 @@
 // }
 
 //nested if
-Console.WriteLine("Enter your age: ");
-int age = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Enter your age: ");
+// int age = Convert.ToInt32(Console.ReadLine());
 
-if(age >= 18 )
-{
-    System.Console.WriteLine("You are an adult.");
-    if(age > 18)
-    {
-    System.Console.WriteLine("You are older than 18 years old!");
-    }
-    else {
-        System.Console.WriteLine("You are not older than 18 years old.");
-    }
-}
-else{
-    System.Console.WriteLine("You are still a minor.");
-}
+// if(age >= 18 )
+// {
+//     System.Console.WriteLine("You are an adult.");
+//     if(age > 18)
+//     {
+//     System.Console.WriteLine("You are older than 18 years old!");
+//     }
+//     else {
+//         System.Console.WriteLine("You are not older than 18 years old.");
+//     }
+// }
+// else{
+//     System.Console.WriteLine("You are still a minor.");
+// }
 
 
 //Sum of array
@@ -297,3 +297,24 @@ else{
 //     System.Console.WriteLine(day + " is not a day.");
 //     break;
 //  }
+
+// nested loops = loops inside of other loops
+            //                Uses vary. Used a lot in sorting algorithms
+
+            Console.Write("How many rows?: ");
+            int rows = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("How many columns?: ");
+            int columns = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("What symbol: ");
+            String symbol = Console.ReadLine();
+
+            for (int i = 0; i < rows; i++)
+            {
+                for (int j = 0; j < columns; j++)
+                {
+                    Console.Write(symbol);
+                }
+                Console.WriteLine();
+            }
