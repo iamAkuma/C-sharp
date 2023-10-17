@@ -314,7 +314,7 @@
             {
                 for (int j = 0; j < columns; j++)
                 {
-                    Console.Write(symbol);
+                    Console.Write("\t" +symbol);
                 }
                 Console.WriteLine();
             }
