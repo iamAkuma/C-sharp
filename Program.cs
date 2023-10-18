@@ -364,8 +364,8 @@ while (playAgain)
     System.Console.WriteLine("Guess: " +guess);
 
     Console.WriteLine("Would you like to play again (Y/N): ");
+    response = Console.ReadLine();
     response = response.ToUpper();
-    response = response.ToLower();
 
     if(response == "Y"){
         playAgain = true;
@@ -373,7 +373,13 @@ while (playAgain)
     else{
         playAgain = false;
     }
-    System.Console.WriteLine();
-    System.Console.WriteLine("Thanks for playing");
+
+    if(response!="Y"){
+        System.Console.WriteLine("Thanks for playing");
+    }
+    else{
+        System.Console.WriteLine("Let's start the game again!");
+    }
+
 
 }
