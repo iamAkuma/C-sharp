@@ -299,27 +299,81 @@
 //  }
 
 // nested loops = loops inside of other loops
-            //                Uses vary. Used a lot in sorting algorithms
+//                Uses vary. Used a lot in sorting algorithms
 
-            Console.Write("How many rows?: ");
-            int rows = Convert.ToInt32(Console.ReadLine());
+// Console.Write("How many rows?: ");
+// int rows = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("How many columns?: ");
-            int columns = Convert.ToInt32(Console.ReadLine());
+// Console.Write("How many columns?: ");
+// int columns = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("What symbol: ");
-            String symbol = Console.ReadLine();
+// Console.Write("What symbol: ");
+// String symbol = Console.ReadLine();
 
-            for (int i = 0; i < rows; i++)
-            {
-                for (int j = 0; j < columns; j++)
-                {
-                    Console.Write("\t" +symbol);
-                }
-                Console.WriteLine();
-            }
+// for (int i = 0; i < rows; i++)
+// {
+//     for (int j = 0; j < columns; j++)
+//     {
+//         Console.Write("\t" +symbol);
+//     }
+//     Console.WriteLine();
+// }
 
-            //This is some good shit, need to learn this shit again
-            //aaja ni commit badhauna lai matra lekhdai chuu
+//This is some good shit, need to learn this shit again
+//aaja ni commit badhauna lai matra lekhdai chuu
 
-            //bujhyo //bujhyo
+//bujhyo //bujhyo
+
+
+//Guess random number game
+
+Random random = new Random();
+bool playAgain = true;
+int min = 1;
+int max = 100;
+int guess;
+int number;
+int guesses;
+String response;
+
+while (playAgain)
+{
+    guess = 0;
+    guesses = 0;
+    response = "";
+    number = random.Next(min, max + 1);
+
+    while (guess != number)
+    {
+        System.Console.WriteLine("Guess a number between " + min + "-" + max + ":");
+        guess = Convert.ToInt32(Console.ReadLine());
+        System.Console.WriteLine("Guess: " + guess);
+
+        if(guess > number)
+        {
+            System.Console.WriteLine(guess + " is too high");
+        }
+        else if(guess < number)
+        {
+            System.Console.WriteLine(guess + " is too low");
+        }
+        guesses++;
+    }
+    Console.WriteLine("Number: " +number);
+    System.Console.WriteLine("YOU WIN!!");;
+    System.Console.WriteLine("Guess: " +guess);
+
+    Console.WriteLine("Would you like to play again (Y/N): ");
+    response = response.ToUpper();
+    response = response.ToLower();
+
+    if(response == "Y"){
+        playAgain = true;
+    }
+    else{
+        playAgain = false;
+    }
+    System.Console.WriteLine();
+    System.Console.WriteLine("Thanks for playing");
+
+}
