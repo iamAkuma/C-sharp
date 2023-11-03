@@ -540,8 +540,14 @@
 
 //array = a variable than can store multiple values, it's fixed size
 
-String[] car = {"BMW", "Audi", "Porsche"};
-for(int i = 0; i<car.Length; i++)
+String[] cars = { "BMW", "Audi", "Porsche" };
+// for(int i = 0; i<car.Length; i++)
+// {
+//     System.Console.WriteLine(car[i]);
+// }
+
+
+foreach (String car in cars)
 {
-    System.Console.WriteLine(car[i]);
+    Console.WriteLine(car);
 }
