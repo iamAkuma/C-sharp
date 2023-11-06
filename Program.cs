@@ -554,3 +554,15 @@
 
 //method = performs a section of code, whenever it's called
 //benefit = Let's us reuse code w/o writing it multiple times
+
+static void singbday(string name, int age)
+{
+    Console.WriteLine("Happy Birthday to you " +name);
+    System.Console.WriteLine("You are now " +age+ " years old!");
+    System.Console.WriteLine();
+}
+
+String name = "Sichu";
+int age = 21;
+singbday(name,age);
+
