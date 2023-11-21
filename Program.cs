@@ -680,14 +680,69 @@
 
 //             Console.WriteLine(message);
 
-String [,] carList = {
-    {"Mustang", "F-150", "Explorer"},
-    {"Corvette", "Camaro", "Silverado"},
-    {"Corolla", "Camry", "Rav4"}
-};
+// String [,] carList = {
+//     {"Mustang", "F-150", "Explorer"},
+//     {"Corvette", "Camaro", "Silverado"},
+//     {"Corolla", "Camry", "Rav4"}
+// };
 
-carList[0,2] =  "Fusion";
-foreach(String car in carList)
+// carList[0,2] =  "Fusion";
+// foreach(String car in carList)
+// {
+//     System.Console.WriteLine(car);
+// }
+
+// class Add
+// {
+//     void sum()
+//     {
+//         int a = 10, b = 10;
+//         int c = a + b;
+//     }
+// }
+
+// class Subtract
+// {
+//     void diff()
+//     {
+
+//     }
+
+// }
+
+using System;
+
+class Add
 {
-    System.Console.WriteLine(car);
+    // Method to calculate and return the sum
+    public int Sum()
+    {
+        int a = 10, b = 10;
+        return a + b;
+    }
+}
+
+class Subtract
+{
+    // Method to calculate and return the difference
+    public int Diff()
+    {
+        Add obj = new Add(); // Creating an object of the Add class
+        int resultFromAdd = obj.Sum(); // Calling the Sum method from the Add class
+        int num1 = 8, num2 = 3;
+        int difference = resultFromAdd - (num1 + num2); // Calculating the difference
+        return difference;
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Subtract subtractObj = new Subtract(); // Creating an object of the Subtract class
+        int result = subtractObj.Diff(); // Calling the Diff method from the Subtract class
+
+        // Printing the result of subtraction
+        Console.WriteLine("Difference: " + result);
+    }
 }
