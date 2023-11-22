@@ -710,39 +710,104 @@
 
 // }
 
-using System;
+// using System;
 
-class Add
-{
-    // Method to calculate and return the sum
-    public int Sum()
-    {
-        int a = 10, b = 10;
-        return a + b;
-    }
-}
+// class Add
+// {
+//     // Method to calculate and return the sum
+//     public int Sum()
+//     {
+//         int a = 10, b = 10;
+//         return a + b;
+//     }
+// }
 
-class Subtract
-{
-    // Method to calculate and return the difference
-    public int Diff()
-    {
-        Add obj = new Add(); // Creating an object of the Add class
-        int resultFromAdd = obj.Sum(); // Calling the Sum method from the Add class
-        int num1 = 8, num2 = 3;
-        int difference = resultFromAdd - (num1 + num2); // Calculating the difference
-        return difference;
-    }
-}
+// class Subtract
+// {
+//     // Method to calculate and return the difference
+//     public int Diff()
+//     {
+//         Add obj = new Add(); // Creating an object of the Add class
+//         int resultFromAdd = obj.Sum(); // Calling the Sum method from the Add class
+//         int num1 = 8, num2 = 3;
+//         int difference = resultFromAdd - (num1 + num2); // Calculating the difference
+//         return difference;
+//     }
+// }
 
-class Program
-{
-    static void Main()
-    {
-        Subtract subtractObj = new Subtract(); // Creating an object of the Subtract class
-        int result = subtractObj.Diff(); // Calling the Diff method from the Subtract class
+// class Program
+// {
+//     static void Main()
+//     {
+//         Subtract subtractObj = new Subtract(); // Creating an object of the Subtract class
+//         int result = subtractObj.Diff(); // Calling the Diff method from the Subtract class
 
-        // Printing the result of subtraction
-        Console.WriteLine("Difference: " + result);
-    }
-}
+//         // Printing the result of subtraction
+//         Console.WriteLine("Difference: " + result);
+//     }
+// }
+
+// using System;
+
+// class Add
+// {
+//     // Method to calculate and return the sum
+//     public int Sum()
+//     {
+//         int a = 10, b = 10;
+//         return a + b;
+//     }
+// }
+
+// class Subtract
+// {
+//     // Property to store the result from the Sum method
+//     public int ResultFromAdd { get; }
+
+//     // Method to calculate and return the difference
+//     public int Diff()
+//     {
+//         Add obj = new Add(); // Creating an object of the Add class
+//         ResultFromAdd = obj.Sum(); // Calling the Sum method from the Add class
+
+//         int num1 = 8, num2 = 3;
+//         int difference = ResultFromAdd - (num1 + num2); // Calculating the difference
+
+//         return difference;
+//     }
+// }
+
+// class Program
+// {
+//     static void Main()
+//     {
+//         Subtract subtractObj = new Subtract(); // Creating an object of the Subtract class
+//         int resultFromSubtract = subtractObj.Diff(); // Calling the Diff method from the Subtract class
+
+//         // Printing the results
+//         Console.WriteLine("Sum: " + subtractObj.ResultFromAdd); // Printing the result of addition
+//         Console.WriteLine("Difference: " + resultFromSubtract); // Printing the result of subtraction
+//     }
+// }
+
+ String[,] parkingLot = { { "Mustang", "F-150", "Explorer" },
+                                                   { "Corvette", "Camaro", "Silverado" },
+                                                   { "Corolla", "Camry", "Rav4" }
+                                                 };
+
+            parkingLot[0, 2] = "Fusion";
+            parkingLot[2, 0] = "Tacoma";
+            /*
+            foreach(String car in parkingLot)
+            {
+                Console.WriteLine(car);
+            }
+            */
+            for(int i = 0; i < parkingLot.GetLength(0); i++)
+            {
+                for (int j = 0; j < parkingLot.GetLength(1); j++)
+                {
+                    Console.Write(parkingLot[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
