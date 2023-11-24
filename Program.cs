@@ -811,3 +811,63 @@ for (int i = 0; i < parkingLot.GetLength(0); i++)
     }
     Console.WriteLine();
 }
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConstructorExample1
+{
+   
+    public class Program
+    {
+        public double salary;
+        public int age;
+        public String name;
+        public String address;
+        public int a, b, c;
+        public Program(string name, string address)
+        {
+            this.name = name; 
+            this.address = address;
+            Console.WriteLine("His name is " +name + ".");
+            Console.WriteLine("His address is " +address + ".");
+        }
+     
+        public Program(double salary)
+        {
+            this.salary = salary;
+            Console.WriteLine("His salary is " + salary + ".");
+        }
+        public Program(int age)
+        {
+            this.age = age;
+            Console.WriteLine("His age is " + age + ".");
+        }
+
+        public Program()
+        {
+        }
+
+       public void display()
+        {
+            int a = 10;
+            int b = 20;
+            c = a + b;
+            Console.WriteLine("The sum is " +c + ".");
+        }
+     
+        static void Main(string[] args)
+        {
+            Program obj2 = new Program("Saral", "Suryabinayak");
+            Program obj3 = new Program(21);
+            Program obj1 = new Program(50000.00); 
+            Program obj4 = new Program();
+            obj4.display();
+            Console.ReadLine();
+        }
+        
+    }
+}
