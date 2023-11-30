@@ -861,3 +861,27 @@
 //         }
 
 //     }
+
+class Parent
+{
+    public void display()
+    {
+        System.Console.WriteLine("This is parent class");
+    }
+}
+
+class Child : Parent
+{
+    public void display()
+    {
+        System.Console.WriteLine("This is child class");
+    }
+}
+class main
+{
+    static void Main(string[] args)
+    {
+        Child obj = new Child();
+        obj.display();
+    }
+}
