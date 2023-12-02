@@ -971,3 +971,42 @@
 //     }
 // }
 
+//Know the count of the given number
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Declare an integer variable and assign a value to it
+        int number = 12345; // Replace this with your desired number
+
+        // Calculate the count of digits
+        int count = GetDigitCount(number);
+
+        // Display the result
+        Console.WriteLine($"The count of digits in {number} is: {count}");
+    }
+
+    static int GetDigitCount(int num)
+    {
+        // Handle the case when the number is 0
+        if (num == 0)
+        {
+            return 1; // If the number is 0, it has one digit
+        }
+
+        // Initialize count to 0
+        int count;
+
+        // Iterate through digits using a for loop
+        for (count = 0; num != 0; count++)
+        {
+            num = num / 10; // Remove the last digit by dividing the number by 10
+        }
+
+        return count; // Return the count of digits
+    }
+}
+
