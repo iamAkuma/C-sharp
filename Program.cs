@@ -1077,3 +1077,51 @@
 //     }
 // }
 
+using System;
+
+class Calculator
+{
+    // Method with two integer parameters
+    public int Add(int a, int b)
+    {
+        return a + b;
+    }
+
+    // Method with three integer parameters
+    public int Add(int a, int b, int c)
+    {
+        return a + b + c;
+    }
+
+    // Method with two double parameters
+    public double Add(double a, double b)
+    {
+        return a + b;
+    }
+
+    // Method with a string parameter
+    public string Add(string a, string b)
+    {
+        return a + b;
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Calculator calculator = new Calculator();
+
+        // Call the overloaded methods
+        int sum1 = calculator.Add(2, 3);
+        int sum2 = calculator.Add(1, 2, 3);
+        double sum3 = calculator.Add(1.5, 2.5);
+        string result = calculator.Add("Hello, ", "world!");
+
+        // Display the results
+        Console.WriteLine($"Sum 1: {sum1}");
+        Console.WriteLine($"Sum 2: {sum2}");
+        Console.WriteLine($"Sum 3: {sum3}");
+        Console.WriteLine($"Concatenated Strings: {result}");
+    }
+}
