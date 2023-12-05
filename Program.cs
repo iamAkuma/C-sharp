@@ -1194,6 +1194,7 @@ public class Child1 : SuperClass
     public void Show()
     {
         name = "Saral";
+        System.Console.WriteLine(name);
     }
 }
 
@@ -1202,13 +1203,21 @@ public class Child2 : SuperClass
     public void display()
     {
         name = "Kritagya";
+        System.Console.WriteLine(name);
     }
 }
 
 public class Program
 {
+    static void Main()
+    {
     Child1 obj1 = new Child1();
     obj1.Show();
+
+    Child2 obj2 = new Child2();
+    obj2.display();
+
+    }
 
 
 }
